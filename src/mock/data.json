@@ -1,0 +1,239 @@
+{
+  "name": "full_name",
+  "email": "email",
+  "phone": "phone",
+  "address": "address",
+  "profile": "profile_content",
+  "linkedin": "linkedin_profile",
+  "experience": [
+    {
+      "id": 0,
+      "company": "aleph_labs_title",
+      "website": "www.aleph-labs.com",
+      "position": "frontend_engineer",
+      "startDate": "august_2019",
+      "endDate": "present",
+      "description": [
+        "aleph_experience_1",
+        "aleph_experience_2",
+        "aleph_experience_3",
+        "aleph_experience_4",
+        "aleph_experience_5",
+        "aleph_experience_6"
+      ],
+      "accomplishments": [
+        "aleph_accomplishment_1",
+        "aleph_accomplishment_2",
+        "aleph_accomplishment_3"
+      ],
+      "techStack": [
+        "typescript",
+        "react_js",
+        "next_js",
+        "react_native",
+        "redux",
+        "webpack",
+        "microfrontend",
+        "cordova",
+        "rest_api",
+        "graphql",
+        "tdd",
+        "jest",
+        "react_testing_library",
+        "design_system"
+      ]
+    },
+    {
+      "id": 1,
+      "company": "kian_ecommerce",
+      "website": "",
+      "position": "fullstack_engineer",
+      "startDate": "may_2017",
+      "endDate": "july_2019",
+      "description": [
+        "kian_experience_1",
+        "kian_experience_2",
+        "kian_experience_3",
+        "kian_experience_4"
+      ],
+      "accomplishments": [],
+      "techStack": [
+        "php",
+        "laravel",
+        "mysql",
+        "javascript",
+        "vue_js",
+        "vuex",
+        "react_js",
+        "redux",
+        "html_5",
+        "css_sass_less",
+        "bootstrap",
+        "wordpress",
+        "woocommerce",
+        "git"
+      ]
+    },
+    {
+      "id": 2,
+      "company": "arian_saeed_title",
+      "website": "www.ariansaeed.com",
+      "position": "fullstack_developer",
+      "startDate": "jun_2012",
+      "endDate": "may_2017",
+      "description": [
+        "arain_saeed_experience_1",
+        "arain_saeed_experience_2",
+        "arain_saeed_experience_3"
+      ],
+      "accomplishments": [],
+      "techStack": [
+        "php",
+        "html",
+        "css",
+        "mysql",
+        "sql_server",
+        "javascript",
+        "jquery",
+        "ajax",
+        "bootstrap",
+        "wordpress"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "id": 0,
+      "title": "web",
+      "skills": [
+        "html_5",
+        "css",
+        "sass",
+        "less",
+        "tailwindcss",
+        "bootstrap",
+        "materialui",
+        "responsive_design",
+        "javascript",
+        "es6",
+        "typescript",
+        "react_js",
+        "redux",
+        "vue_js",
+        "vuex",
+        "flux",
+        "spa",
+        "pwa",
+        "microfrontend",
+        "websocket"
+      ]
+    },
+    {
+      "id": 1,
+      "title": "mobile",
+      "skills": [
+        "react_native",
+        "code_push",
+        "firebase",
+        "push_notification"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "ci_cd",
+      "skills": [
+        "jenkins",
+        "app_center",
+        "github"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "api_integration",
+      "skills": [
+        "rest_api",
+        "graphql"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "unit_testing",
+      "skills": [
+        "jest",
+        "react_testing_library"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "backend",
+      "skills": [
+        "nest_js",
+        "next_js",
+        "rest_api",
+        "graphql",
+        "php",
+        "laravel"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "database",
+      "skills": [
+        "mysql",
+        "postgresql",
+        "mongodb"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "prototyping_tools",
+      "skills": [
+        "figma",
+        "zeplin",
+        "sketch",
+        "adobe_illustrator",
+        "adobe_xd"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "other_technical_skills",
+      "skills": [
+        "git_version_control",
+        "docker",
+        "story_book",
+        "jira",
+        "confluence",
+        "atomic_design",
+        "debugging",
+        "dev_tools",
+        "dom_manipulation",
+        "app_performance",
+        "cms",
+        "cross_browser_styling",
+        "automated_testing",
+        "integration"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "soft_skills",
+      "skills": [
+        "teamwork",
+        "leadership",
+        "problem_solving",
+        "communication_skills",
+        "adaptibility"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": 0,
+      "university": "payame_noor_university",
+      "degree": "backelor_of_science_of_physics",
+      "major": "physics",
+      "graduationYear": "2008"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Nazanin';
+    src: url('./assets/fonts/Nazanin.woff2') format('woff2'),
+        url('./assets/fonts/Nazanin.woff') format('woff');
+}
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+.en-font {
+  font-family: 'Avenir', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.fa-font {
+  font-family: 'Nazanin';
+  /* font-size: 16pt; */
+}
+
+body {
+  @apply bg-white text-gray-800 font-sans leading-normal tracking-normal
+}
+
+h1 {
+  @apply text-6xl font-bold mb-4
+}
+
+h2 {
+  @apply text-2xl font-bold mb-4
+}
+
+h3 {
+  @apply text-xl font-bold mb-4
+}
+
+a {
+  @apply cursor-pointer text-sky-700 hover:text-sky-400
+}
