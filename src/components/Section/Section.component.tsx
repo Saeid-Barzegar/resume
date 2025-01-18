@@ -17,7 +17,7 @@ const Section: React.FC<SectionPropType> = ({
   return (
     <section id={sectionId} className={`${className}`}>
       <button className='cursor-pointer' onClick={scrollTopHandler}>
-        <h2><FormattedMessage id={title} /></h2>
+        <h2 className='ltr:text-left rtl:text-right'><FormattedMessage id={title} /></h2>
       </button>
       <div className='ltr:pl-2 rtl:pr-2'>
         {children}
