@@ -80,7 +80,7 @@ const Navigation: React.FC<NavigationPropType> = ({ }) => {
     const fileUrl = files[type];
     const link = document.createElement('a');
     link.href = fileUrl;
-    link.download = fileUrl.split('/').pop() || ''// Automatically use the file name from the path
+    link.download = fileUrl.split('/').pop() ?? '';
     link.click();
   }
 
