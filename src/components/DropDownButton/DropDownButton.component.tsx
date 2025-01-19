@@ -30,7 +30,7 @@ const DropDownButton: React.FC<DropDownButtonPropTypes> = ({
     <div className={`relative inline-block text-left ${className}`}>
       <div>
         <button type="button" onClick={() => setIsOpen(state => !state)} className="inline-flex w-full justify-center items-center gap-x-1.5 rounded-full bg-white px-4 py-2 text-sm font-semibold text-gray-700 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50" id="menu-button" aria-expanded="true" aria-haspopup="true">
-          <span className='mb-1'><FormattedMessage id={label} /></span>
+          <span className='md:mb-1'><FormattedMessage id={label} /></span>
           <TbChevronDown className={`size-4 transition-transform duration-200 ${isOpen ? 'rotate-180' : 'rotate-0'}`} />
         </button>
       </div>
