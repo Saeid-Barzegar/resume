@@ -1,6 +1,6 @@
 import React from 'react';
 import { isEmpty } from 'lodash';
-import { FormattedMessage } from 'react-intl';
+import { FormattedMessage, useIntl } from 'react-intl';
 import { TbAt, TbBrandLinkedin, TbPhone, TbMapPin } from "react-icons/tb";
 import Section from '../components/Section/Section.component';
 import { useResumeRef } from '../context/MainContext';
@@ -84,7 +84,13 @@ const List: React.FC<ListPropTypes> = ({ data }) => {
     },
   ];
 
+  const intl = useIntl();
   const { resumeRef } = useResumeRef();
+
+  const formatSkills = (skills: string[]) => {
+    const translatedArray = skills.map((skill: string) => intl.formatMessage({ id: skill }))
+    return translatedArray.join(', ');
+  }
 
   const renderExperiencesContent = () => (
     <div className='mt-4 p-4'>
@@ -131,15 +137,9 @@ const List: React.FC<ListPropTypes> = ({ data }) => {
               <div className='pt-4'>
                 <h3><FormattedMessage id="stack" />:</h3>
                 <p className='ltr:pl-4 rtl:pr-4 italic'>
-                  {item.techStack.map((tech: string, index: number) => (
-                    <span
-                      key={tech}
-                      className='mr-1'
-                    >
-                      <FormattedMessage id={tech} />
-                      {index === item.techStack.length - 1 ? '.' : ','}
-                    </span>
-                  ))}
+                  <span className='italic'>
+                    {formatSkills(item.techStack)}
+                  </span>
                 </p>
               </div>
             )}
@@ -150,16 +150,12 @@ const List: React.FC<ListPropTypes> = ({ data }) => {
   );
 
   const renderSkillsContent = () => (
-    <div className='max-w-full'>
+    <div className='w-full'>
       {skills.map((skill: Skill) => (
-        <div key={skill.id} className='flex mt-2'>
-          <p className=''>
+        <div key={skill.id} className='mt-2 w-full'>
+          <p className='max-w-full'>
             <span className='mr-3 font-bold'><FormattedMessage id={skill.title} />:</span>
-            {skill.skills.map((skill: string) => (
-              <span key={skill} className='mr-2 italic'>
-                <FormattedMessage id={skill} />,
-              </span>
-            ))}
+            <span className='italic'>{formatSkills(skill.skills)}</span>
           </p>
         </div>
       ))}
@@ -215,9 +211,9 @@ const List: React.FC<ListPropTypes> = ({ data }) => {
         <h1 className='capitalize mb-0 font-semibold'>
           <FormattedMessage id={name} />
         </h1>
-        {/* <div className='flex w-full mt-10'>
+        {/* <div className='flex xs:flex-col md:flex-row w-full mt-10'>
           {contactData.map(info => (
-            <span key={info.id} className='flex flex-1 content-center justify-center'>
+            <span key={info.id} className='flex flex-1 content-center xs:justify-start md:justify-center'>
               {info.icon}
               <FormattedMessage id={info.label} />
             </span>

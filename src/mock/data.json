@@ -105,6 +105,12 @@
       "id": 0,
       "title": "web",
       "skills": [
+        "react_js",
+        "next_js",
+        "javascript",
+        "es6",
+        "typescript",
+        "redux",
         "html_5",
         "css",
         "sass",
@@ -113,18 +119,14 @@
         "bootstrap",
         "materialui",
         "responsive_design",
-        "javascript",
-        "es6",
-        "typescript",
-        "react_js",
-        "redux",
         "vue_js",
         "vuex",
         "flux",
         "spa",
         "pwa",
         "microfrontend",
-        "websocket"
+        "websocket",
+        "socket.io"
       ]
     },
     {
@@ -167,7 +169,7 @@
       "title": "backend",
       "skills": [
         "nest_js",
-        "next_js",
+        "express_js",
         "rest_api",
         "graphql",
         "php",

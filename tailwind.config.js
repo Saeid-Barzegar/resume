@@ -12,6 +12,14 @@ export default {
         "2xl": "1536px", // 2X-Large devices (larger desktops)
         "3xl": "1920px", // 3X-Large devices (ultra-wide screens)
       },
+      typography: {
+        DEFAULT: {
+          css: {
+            wordBreak: "break-word",
+            overflowWrap: "anywhere",
+          },
+        },
+      },
     },
   },
   plugins: [require("tailwindcss-rtl")],
