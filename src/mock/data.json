@@ -5,21 +5,67 @@
   "address": "address",
   "profile": "profile_content",
   "linkedin": "linkedin_profile",
+  "github": "github_profile",
   "experience": [
     {
       "id": 0,
+      "company": "bitazza_title",
+      "website": [
+        "www.bitazza.com"
+      ],
+      "position": "fullstack_engineer",
+      "startDate": "february_2024",
+      "endDate": "present",
+      "description": [
+        "bitazza_experience_1",
+        "bitazza_experience_2",
+        "bitazza_experience_3",
+        "bitazza_experience_4",
+        "bitazza_experience_5",
+        "bitazza_experience_6",
+        "bitazza_experience_7"
+      ],
+      "accomplishments": [
+        "bitazza_accomplishment_1",
+        "bitazza_accomplishment_2"
+      ],
+      "techStack": [
+        "typescript",
+        "react_js",
+        "next_js",
+        "nest_js",
+        "mysql",
+        "typeorm",
+        "redux_toolkit",
+        "rest_api",
+        "websocket",
+        "aws",
+        "docker",
+        "terraform",
+        "bitbucket_pipelines",
+        "jest",
+        "react_testing_library",
+        "tdd",
+        "webpack",
+        "blockchain",
+        "cryptocurrency_apis"
+      ]
+    },
+    {
+      "id": 1,
       "company": "aleph_labs_title",
-      "website": "www.aleph-labs.com",
+      "website": [
+        "www.aleph-labs.com"
+      ],
       "position": "frontend_engineer",
       "startDate": "august_2019",
-      "endDate": "present",
+      "endDate": "october_2023",
       "description": [
         "aleph_experience_1",
         "aleph_experience_2",
         "aleph_experience_3",
         "aleph_experience_4",
-        "aleph_experience_5",
-        "aleph_experience_6"
+        "aleph_experience_5"
       ],
       "accomplishments": [
         "aleph_accomplishment_1",
@@ -44,10 +90,10 @@
       ]
     },
     {
-      "id": 1,
+      "id": 2,
       "company": "kian_ecommerce",
-      "website": "",
-      "position": "fullstack_engineer",
+      "website": [],
+      "position": "fullstack_developer",
       "startDate": "may_2017",
       "endDate": "july_2019",
       "description": [
@@ -74,16 +120,19 @@
       ]
     },
     {
-      "id": 2,
+      "id": 3,
       "company": "arian_saeed_title",
-      "website": "www.ariansaeed.com",
+      "website": [
+        "www.ariansaeed.com"
+      ],
       "position": "fullstack_developer",
-      "startDate": "jun_2012",
+      "startDate": "june_2012",
       "endDate": "may_2017",
       "description": [
         "arain_saeed_experience_1",
         "arain_saeed_experience_2",
-        "arain_saeed_experience_3"
+        "arain_saeed_experience_3",
+        "arain_saeed_experience_4"
       ],
       "accomplishments": [],
       "techStack": [
@@ -105,47 +154,32 @@
       "id": 0,
       "title": "web",
       "skills": [
+        "typescript",
+        "javascript",
         "react_js",
         "next_js",
-        "javascript",
-        "es6",
-        "typescript",
-        "redux",
-        "html_5",
-        "css",
-        "sass",
-        "less",
-        "tailwindcss",
-        "bootstrap",
-        "materialui",
-        "responsive_design",
-        "vue_js",
-        "vuex",
-        "flux",
+        "design_system",
         "spa",
         "pwa",
         "microfrontend",
-        "websocket",
-        "socket.io"
+        "websocket"
       ]
     },
     {
       "id": 1,
       "title": "mobile",
       "skills": [
-        "react_native",
-        "code_push",
-        "firebase",
-        "push_notification"
+        "react_native"
       ]
     },
     {
       "id": 2,
       "title": "ci_cd",
       "skills": [
-        "jenkins",
-        "app_center",
-        "github"
+        "aws",
+        "terraform",
+        "docker",
+        "bitbucket_pipelines"
       ]
     },
     {
@@ -153,7 +187,9 @@
       "title": "api_integration",
       "skills": [
         "rest_api",
-        "graphql"
+        "graphql",
+        "blockchain_crypto_apis",
+        "websocket"
       ]
     },
     {
@@ -161,7 +197,8 @@
       "title": "unit_testing",
       "skills": [
         "jest",
-        "react_testing_library"
+        "react_testing_library",
+        "tdd"
       ]
     },
     {
@@ -170,10 +207,9 @@
       "skills": [
         "nest_js",
         "express_js",
-        "rest_api",
-        "graphql",
-        "php",
-        "laravel"
+        "node_js",
+        "typeorm",
+        "prisma"
       ]
     },
     {
@@ -181,19 +217,14 @@
       "title": "database",
       "skills": [
         "mysql",
-        "postgresql",
-        "mongodb"
+        "postgresql"
       ]
     },
     {
       "id": 7,
       "title": "prototyping_tools",
       "skills": [
-        "figma",
-        "zeplin",
-        "sketch",
-        "adobe_illustrator",
-        "adobe_xd"
+        "figma"
       ]
     },
     {
@@ -201,27 +232,17 @@
       "title": "other_technical_skills",
       "skills": [
         "git_version_control",
-        "docker",
-        "story_book",
-        "jira",
-        "confluence",
-        "atomic_design",
-        "debugging",
-        "dev_tools",
-        "dom_manipulation",
-        "app_performance",
-        "cms",
-        "cross_browser_styling",
-        "automated_testing",
-        "integration"
+        "webpack",
+        "redux_toolkit",
+        "docker"
       ]
     },
     {
       "id": 9,
       "title": "soft_skills",
       "skills": [
-        "teamwork",
         "leadership",
+        "teamwork",
         "problem_solving",
         "communication_skills",
         "adaptibility"
@@ -232,7 +253,7 @@
     {
       "id": 0,
       "university": "payame_noor_university",
-      "degree": "backelor_of_science_of_physics",
+      "degree": "bachelor_of_science_of_physics",
       "major": "physics",
       "graduationYear": "2008"
     }
